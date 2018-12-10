@@ -11,7 +11,8 @@
   "license" : "MIT",
   "author" : {
     "name" : "Kevin Rutten",
-    "email" : "k.rutten@smart4solutions.nl"
+    "email" : "k.rutten@smart4solutions.nl",
+    "url" : "https://www.smart4solutions.nl"
   },
   "repository" : {
     "type" : "git",
@@ -24,8 +25,8 @@
       "plugin" : {
         "internalName" : "S4S_PDF_DOWNLOAD",
         "type" : "dynamic action",
-        "demo" : "https://apex.oracle.com/pls/apex/f?p=SMART4SOLUTIONS:240",
-        "previewImage" : "https://raw.githubusercontent.com/smart4solutions/query2pdf/master/preview.gif"
+        "demo" : "https://apex.oracle.com/pls/apex/f?p=SMART4SOLUTIONS:240"
+        
       }
     }
   }
