@@ -1,6 +1,6 @@
 {
   "name" : "smart4solutions query2pdf",
-  "version" : "1.0",
+  "version" : "0.1",
   "description" : "Generate A PDF report with only a SQL query. It is also possible to customize the report.",
   "keywords" : ["query", "pdf"],
   "homepage" : "https://github.com/smart4solutions/query2pdf.git",
