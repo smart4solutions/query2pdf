@@ -25,8 +25,8 @@
       "plugin" : {
         "internalName" : "S4S_PDF_DOWNLOAD",
         "type" : "dynamic action",
-        "demo" : "https://apex.oracle.com/pls/apex/f?p=SMART4SOLUTIONS:240"
-        
+        "demo" : "https://apex.oracle.com/pls/apex/f?p=SMART4SOLUTIONS:240",
+        "previewImage" : "https://raw.githubusercontent.com/smart4solutions/query2pdf/master/preview.gif"
       }
     }
   }
