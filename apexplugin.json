@@ -1,0 +1,33 @@
+{
+  "name" : "smart4solutions Query to PDF",
+  "version" : "0.1",
+  "description" : "Generate A PDF report with only a SQL query. It is also possible to customize the report.",
+  "keywords" : ["PDF","Query"],
+  "homepage" : "https://github.com/smart4solutions/query2pdf",
+  "bugs" : {
+    "url" : "https://github.com/smart4solutions/query2pdf/issues",
+    "email" : "k.rutten@smart4solutions.nl"
+  },
+  "license" : "MIT",
+  "author" : {
+    "name" : "Kevin Rutten",
+    "email" : "k.rutten@smart4solutions.nl",
+    "url" : "http://smart4solutions.nl/"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/smart4solutions/query2pdf"
+  },
+ "oracle" : {
+    "versions" : ["11.2.0.1", "12.1.0.1"],
+    "apex" : {
+      "versions" : ["18.1","18.2"],
+      "plugin" : {
+        "internalName" : "S4S_PDF_DOWNLOAD",
+        "type" : "dynamic action",
+        "demo" : "https://apex.oracle.com/pls/apex/f?p=SMART4SOLUTIONS:240",
+        "previewImage" : "https://raw.githubusercontent.com/smart4solutions/query2pdf/master/preview.gif"
+      }
+    }
+  }
+}
